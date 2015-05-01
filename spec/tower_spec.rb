@@ -44,7 +44,6 @@ describe Game do
   end
 end
 
-
 describe Tower do
   subject(:tower) { Tower.new([3, 2]) }
   let(:other_tower) { Tower.new([1]) }
